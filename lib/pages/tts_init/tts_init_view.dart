@@ -11,8 +11,8 @@ class TtsInitView extends GetView<TtsInitLogic> {
     return Scaffold(
       body: Center(
         child: Obx(
-          () => controller.beer.value
-              ? const CircularProgressIndicator(color: Colors.white)
+          () => controller.steuber.value
+              ? CircularProgressIndicator(color: Colors.blue[300])
               : buildError(),
         ),
       ),
@@ -26,7 +26,7 @@ class TtsInitView extends GetView<TtsInitLogic> {
         children: [
           IconButton(
             onPressed: () {
-              controller.nxfcp();
+              controller.hlkotsd();
             },
             icon: const Icon(
               Icons.restart_alt,

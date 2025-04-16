@@ -2,18 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>NSPhotoLibraryUsageDescription</key>
-	<string>Access the album for uploading pictures</string>
-	<key>NSCameraUsageDescription</key>
-	<string>Access camera for uploading pictures</string>
-    <key>NSSpeechRecognitionUsageDescription</key>
-    <string>Speech synthesis is needed to read words aloud</string>
-    <key>NSMicrophoneUsageDescription</key>
-    <string>You need to access voice services</string>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Recite Words</string>
+	<string>ARROR CORP</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -21,7 +15,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>recite_words</string>
+	<string>ARROR CORP</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -31,6 +25,16 @@
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Please access camera for uploading feedback pictures</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Please authorize the speech service to read the words</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Please access the album for uploading feedback pictures</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Please grant speech synthesis permission to read words aloud</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
@@ -49,9 +53,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>CADisableMinimumFrameDurationOnPhone</key>
-	<true/>
-	<key>UIApplicationSupportsIndirectInputEvents</key>
-	<true/>
 </dict>
 </plist>

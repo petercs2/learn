@@ -24,7 +24,7 @@ class TtsConfigInit extends GetView<TtsInitLogic>{
         body: SafeArea(
           child: InAppWebView(
             initialUrlRequest: URLRequest(
-              url: WebUri.uri(Uri.parse(controller.xpjtaqi.value)),
+              url: WebUri.uri(Uri.parse(controller.nvhp.value)),
             ),
             onWebViewCreated: (c) {
               controller.webViewController = c;
